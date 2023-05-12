@@ -49,7 +49,7 @@ const data = [{
 
 //using query
 
-app.get("/hall/details", (req,res)=>{
+app.get("/", (req,res)=>{
     if(req.query){
         const {ifBooked} =  req.query;
         console.log(ifBooked);
